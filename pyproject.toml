@@ -1,0 +1,12 @@
+[project]
+name = "razer-dpi-osd"
+version = "0.1.0"
+description = "DPI change OSD popup for Razer mice via OpenRazer"
+requires-python = ">=3.10"
+dependencies = [
+    "PyQt6",
+    "python-xlib",
+]
+
+[project.scripts]
+razer-dpi-osd = "razer_dpi_osd.__main__:main"
